@@ -1,7 +1,10 @@
 # Firestation-Gateway
 
-Achtung: Sowohl das Gateway als auch das Webfrontend sind noch in der Entwicklungsphase!
+**Achtung: Sowohl das Gateway als auch das Webfrontend sind noch in der Entwicklungsphase!**
 
+[Firestation-Gateway](https://github.com/firestation-gateway/firestation-gateway)
+
+[Firestation-Webfrontend](https://github.com/firestation-gateway/firestation-web)
 
 # Installation auf RaspberryPi
 
@@ -32,6 +35,6 @@ Nach erfolgreichem Login, muss lediglich das folgende Kommando ausgeführt werde
 
     sudo -E bash -c "$(curl -fsSL https://raw.githubusercontent.com/firestation-gateway/scripts/main/installFSG.sh)"
 
-Das Skript installiert unter /opt/firestation-gateway eine Python-venv und darin das Firestation-Gateway. Das optionale Webfrontend wird ebenfalls unterhalb dieses Verzeichnisses installiert (/opt/firestation-gateway/web).
+Das Skript installiert unter `/opt/firestation-gateway` eine Python-venv und darin das Firestation-Gateway. Das optionale Webfrontend wird ebenfalls unterhalb dieses Verzeichnisses installiert (`/opt/firestation-gateway/web`).
 
 *Dieses Skript kann auch genutzt werden, um eine bestehende Installation zu aktualisieren.*
